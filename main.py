@@ -13,21 +13,37 @@
 
 # Definir funcion que imprime menu
 def imprimir_menu():
-    print("Bienvenido a mi juego de ajedrez")
+    print("Welcome")
     modo_de_juego = input(
         """¿Que quieres hacer?
-        Pulsa 1 para jugar
+        Pulsa 1 para entrar
         Pulsa 0 para salir""")
     if modo_de_juego == 1:
         print("Vamos a jugar!")
+        Name = input('input your name')
+        print('hello' + Name)
     elif 0:
         print("Adios!")
     return modo_de_juego
 
 # Bucle principal del juego
+
+
 def main():
     while imprimir_menu():
 
 
+
         # Inicio del programa
-main()
+
+ el_modo_de_juego = int(input(
+    """
+    Pulsa 1 para jugar
+    Pulsa 0 para salir"""))
+    if el_modo_de_juego=1
+    def mostrar_juego()
+    else return modo_de_juego
+
+
+    # game
+    tablero = 
